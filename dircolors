@@ -23,33 +23,16 @@ TERM tmux*
 TERM vt100
 TERM xterm*
 
-# Attribute codes:
-# 	00=none
-# 	01=bold
-# 	04=underscore
-# 	05=blink
-# 	07=reverse
-# 	08=concealed
-# Text color codes:
-# 	30=black
-# 	31=red
-# 	32=green
-# 	33=yellow
-# 	34=blue
-# 	35=magenta
-# 	36=cyan
-# 	37=white
-# Background color codes:
-# 	40=black
-# 	41=red
-# 	42=green
-# 	43=yellow
-# 	44=blue
-# 	45=magenta
-# 	46=cyan
-# 	47=white
-# NORMAL 00 # no color code at all
-# FILE 00 # regular file: use no color at all
+# |Attribute codes:  |Text color codes:  |Background color codes:  |
+# |------------------|-------------------|-------------------------|
+# |00=normal         |30=black           |40=black                 |
+# |01=bold           |31=red             |40=red                   |
+# |04=underscore     |32=green           |40=green                 |
+# |05=blink          |33=yellow          |40=yellow                |
+# |07=reverse        |34=blue            |40=blue                  |
+# |08=concealed      |35=magenta         |40=magenta               |
+# |                  |36=cyan            |40=cyan                  |
+# |                  |37=white           |40=white                 |
 
 RESET                 0        # reset to "normal" color
 DIR                   00;34    # directory
@@ -161,7 +144,6 @@ EXEC                  00;32    # This is for files with execute permission:
 .yuv   00;35
 .cgm   00;35
 .emf   00;35
-# http://wiki.xiph.org/index.php/MIME_Types_and_File_Extensions
 .ogv   00;35
 .ogx   00;35
 
@@ -177,7 +159,6 @@ EXEC                  00;32    # This is for files with execute permission:
 .ogg  00;36
 .ra   00;36
 .wav  00;36
-# http://wiki.xiph.org/index.php/MIME_Types_and_File_Extensions
 .oga  00;36
 .opus 00;36
 .spx  00;36
