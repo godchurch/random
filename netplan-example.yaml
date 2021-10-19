@@ -12,4 +12,3 @@ network:
         addresses:
           - NAMESERVER_1
           - NAMESERVER_2
-
