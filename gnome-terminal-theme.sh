@@ -57,9 +57,9 @@ if which "$DCONF" > /dev/null 2>&1; then
 
         # update profile values with theme options
         dset visible-name "'$PROFILE_NAME'"
-        dset palette "['rgb(54,54,54)','rgb(233,84,99)','rgb(142,209,97)','rgb(226,151,48)','rgb(86,156,173)','rgb(240,101,190)','rgb(95,228,178)','rgb(201,201,201)','rgb(69,69,69)','rgb(233,84,99)','rgb(142,209,97)','rgb(226,151,48)','rgb(86,156,173)','rgb(240,101,190)','rgb(95,228,178)','rgb(255,255,255)']"
-        dset background-color "'rgb(30,30,30)'"
-        dset foreground-color "'rgb(229,229,229)'"
+        dset palette "['rgb(24,24,24)','rgb(172,66,66)','rgb(144,169,89)','rgb(244,191,117)','rgb(106,159,181)','rgb(170,117,159)','rgb(117,181,170)','rgb(216,216,216)','rgb(107,107,107)','rgb(197,85,85)','rgb(170,196,116)','rgb(254,202,136)','rgb(130,184,200)','rgb(194,140,184)','rgb(147,211,195)','rgb(248,248,248)']"
+        dset background-color "'rgb(24,24,24)'"
+        dset foreground-color "'rgb(216,216,216)'"
         dset use-theme-colors "false"
         dset use-theme-transparency "false"
         dset use-transparent-background "true"
@@ -72,9 +72,39 @@ if which "$DCONF" > /dev/null 2>&1; then
     fi
 fi
 
-# Background   1E1E1E
-# Foreground   E5E5E5
-
-#  Black   Red     Green   Yellow  Blue    Magenta  Cyan    White
-#  363636  E95463  8ED161  E29730  569CAD  F065BE   5FE4B2  C9C9C9
-#  454545  E95463  8ED161  E29730  569CAD  F065BE   5FE4B2  FFFFFF
+# ! special
+# *.foreground:   #d8d8d8
+# *.background:   #181818
+# *.cursorColor:  #d8d8d8
+#
+# ! black
+# *.color0:       #181818
+# *.color8:       #6B6B6B
+#
+# ! red
+# *.color1:       #AC4242
+# *.color9:       #C55555
+#
+# ! green
+# *.color2:       #90A959
+# *.color10:      #AAC474
+#
+# ! yellow
+# *.color3:       #F4BF75
+# *.color11:      #FECA88
+#
+# ! blue
+# *.color4:       #6A9FB5
+# *.color12:      #82B8C8
+#
+# ! magenta
+# *.color5:       #AA759F
+# *.color13:      #C28CB8
+#
+# ! cyan
+# *.color6:       #75B5AA
+# *.color14:      #93D3C3
+#
+# ! white
+# *.color7:       #D8D8D8
+# *.color15:      #F8F8F8
