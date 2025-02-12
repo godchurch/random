@@ -1,5 +1,0 @@
-# Disable ~/.sudo_as_admin_successful file
-
-Defaults !admin_flag
-
-# vim: filetype=sudoers syntax=sudoers
